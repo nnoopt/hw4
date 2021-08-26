@@ -3,7 +3,6 @@ public class Main {
     volatile int a = 1;
 
     public static void main(String[] args) {
-
         Main aa = new Main();
 
         new Thread(() -> {
